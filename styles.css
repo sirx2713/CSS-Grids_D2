@@ -1,0 +1,48 @@
+.background{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+.background > #background-accent{
+    height: 884px;
+    width: 1280px;
+    background-color: #B784B798;
+    position: absolute;
+}
+.background > .small-box{
+    height: 400px;
+    width: 800px;
+    background-color: #B784B7;
+    position: absolute;
+    top: 242px;
+    left: 100px;
+}
+.background > .middle-div{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 20px;
+    position: absolute;
+    top: 292px;
+    left: 150px;
+}
+.background > .middle-div > .box{
+    background-color: #F5F7F8;
+    font-family: "SF Pro Display", serif;
+    text-align: center;
+    font-size: 12px;
+}
+.background > .middle-div > .blank{
+    font-family: "SF Pro Display", serif;
+    color: whitesmoke;
+}
+.background > #heading{
+    position: absolute;
+    top: 700px;
+    font-family: "SF Pro Display", serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+}
